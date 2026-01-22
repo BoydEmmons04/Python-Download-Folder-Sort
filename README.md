@@ -54,4 +54,7 @@ Below is a high-level summary of what goes where.
 
 - 1) Navigate to the directory containing the script
 
-**macOS / Linux
+**macOS / Linux**
+- 2)
+'''bash
+git push
