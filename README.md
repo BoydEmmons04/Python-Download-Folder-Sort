@@ -21,7 +21,37 @@ It only scans the **top level** of `~/Downloads` (no subfolders), and it avoids 
 - Prevents overwrites by renaming on collision:
   - `report.pdf` → `report (1).pdf`, `report (2).pdf`, etc.
 
-At the end, it prints a summary like:
+## File Type Rules
 
-```text
-Done. Moved X file(s). Skipped Y (folders, no/unknown extension).
+Extentions are mapped using 'EXT_MAP'.
+Below is a high-level summary of what goes where.
+
+- **Documents**
+    - pdf, doc, docx, rtf, txt, md
+    - ppt, pptx, xls, xlsx
+    - csv, tsv, json, xml, yml, yaml, epub
+
+- **Music / Audio**
+    - mp3, m4a, aac, wav, flac, ogg, opus
+
+- **Images**
+    - jpg, jpeg, png, gif, webp, bmp
+    - tif, tiff, svg, heic, heif
+
+- **Videos**
+    - mp4, m4v, mov, mkv, avi, wmv, webm
+
+- **Code**
+    - py, ipynb, js, ts, java, c, cp, h, cs, go, rs, swift
+    - sh, bash, ps1, sql, html, css, toml, ini, cfg, conf, cmake, gradle, mk
+
+## Requirements
+
+- Python: 3.x (3.8+ Recommended)
+- Dependencies: None (standard library only)
+
+## Setup
+
+- 1) Navigate to the directory containing the script
+
+**macOS / Linux
