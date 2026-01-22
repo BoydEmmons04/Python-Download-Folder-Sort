@@ -50,11 +50,4 @@ Below is a high-level summary of what goes where.
 - Python: 3.x (3.8+ Recommended)
 - Dependencies: None (standard library only)
 
-## Setup
 
-- 1) Navigate to the directory containing the script
-
-**macOS / Linux**
-- 2)
-'''bash
-git push
